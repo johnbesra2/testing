@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<title>About Us - IITH Racing</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" href="logo.png" type="image/png" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://johnorgs.github.io/hotel-travel-food-portfolio/pace-theme-minimal.css">
+  <script src="https://johnorgs.github.io/hotel-travel-food-portfolio/pace.js"></script>
+ <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<style>
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Yanone Kaffeesatz', sans-serif;}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("photos/img/bbc10.jpg");
+    min-height: 100%;
+}
+
+ a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 99999;
+  right: 20px;
+  bottom: 20px;
+  background: black url("cd-top-arrow.svg") no-repeat center 50%;
+  opacity: 1;
+
+
+}
+a.back-to-top:hover
+{
+
+  opacity:1;
+}
+   /* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,1); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,255,255,1); 
+
+}
+
+.timeline1 {
+    box-sizing: border-box;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline1 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline1::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+}
+
+/* Container around content */
+.container1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left1 {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right1 {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right1::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content1 {
+  color: black;
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline1::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container1 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container1::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left1::after, .right1::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right1 {
+    left: 0%;
+  }
+}
+</style>
+<body id="home">
+<a href="#home" class="back-to-top">Back to Top</a>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off " id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button scrolling">IITH RACING</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-right">CONTACT</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-right">TEAM</a>
+    <a href="atv.html" class="w3-bar-item w3-button w3-right">ATV</a>
+    <a href="#timeline" class="w3-bar-item w3-button w3-right scrolling">TIMELINE</a>
+    
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale" id="home">
+  
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:60px">WELCOME <span style="font-size: 15px">to</span><br>IITH RACING</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:30px"><b>WELCOME  <span style="font-size: 15px">to</span><br>IITH RACING</b></span>
+    <br>
+    
+    <p><a href="#about" class="w3-button w3-xxlarge w3-black scrolling">CLICK</a></p>
+  </div>
+</header>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About IITH Racing</h1>
+    
+    <h4 class="w3-center"><b><q>The only thing that drives our car, is our Passion.</q></b></h4>
+    
+    
+    <div class="w3-row">
+      <div class="w3-col w3-center">
+      <br>
+        <p>IITH Racing is a team of Engineering students from IIT Hyderabad who shares a passion for Automobiles and work into designing, building and testing an All-Terrain Car. Making ATV better and team stronger every year. This team was founded in year 2013 and since then, we have been participating in BAJA SAE India and competing against teams from all over India.</p>
+      </div>
+      <div class="w3-col" style="padding: 10px;">
+      <br>
+      <iframe src="photo.html" height="500px" width="100%" style="border: none;"></iframe>
+        <!--<img src="file:///C:/Users/J/Desktop/BAJA%20SAE/photos/edit/img31.jpg" style="width: 100%;height: 50%;">-->
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-blue w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About BAJA SAE</h1>
+    
+    
+    
+    
+    <div class="w3-row">
+      <div class="w3-half w3-center">
+      <br>
+        <p>BAJA SAE India is a student competition that involves designing, Engineering , Planing, Manufacturing and racing ALL-TERAIN Vehicles. The competition Goal include safety, good engineering practice, engineering design, and education of participating students. Each teams goal is to design and build aprototype of a rugged single seat, off-road recreational four wheel vehicle. It should be able to negotiate in all types of weather without any damage.</p>
+      </div>
+      <div class="w3-half w3-center" style="padding: 10px;">
+      <br>
+      <img src="a1.png" style="width:100%;height: 100%">
+        <!--<img src="file:///C:/Users/J/Desktop/BAJA%20SAE/photos/edit/img31.jpg" style="width: 100%;height: 50%;">-->
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<div class="w3-container w3-red w3-grayscale" id="timeline" >
+<br><br><br>
+<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Timeline SAE IITH</h1>
+  <div class="timeline1">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>SAE 2015</h2>
+      <p>IITH ATV SAE 2015 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 102 inches, and overall height of 72 inches. Having Dry Weight of 230 kg.</p>
+      <img src="photos/edit/img3.jpg" style="width: 100%">
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>SAE 2016</h2>
+      <p>IITH ATV SAE 2016 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 96 inches, and overall height of 72 inches. Having Dry Weight of 270 kg.</p>
+      <img src="photos/edit/img2.jpg" style="width: 100%;">
+    </div>
+  </div>
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>SAE 2017</h2>
+      <p>IITH ATV SAE 2017 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 102 inches, and overall height of 27 inches. Having Dry Weight of 220 kg.</p>
+      <img src="photos/edit/img1.jpg" style="width: 100%;">
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>SAE 2018</h2>
+      <p>COMING SOON.</p>
+    </div>
+  </div>
+
+</div>
+<br><br><br>
+</div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-red w3-grayscale " style="max-width:1600px;">
+<!--<br><br>
+  <h1 class="w3-center w3-jumbo" style="margin-bottom:64px;">Gallery</h1>-->
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-third">
+      <img src="photos/edit/img1.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="photos/edit/img3.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+      <img src="photos/edit/group1.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+   </div>
+    
+   <div class="w3-third">
+      <img src="photos/edit/group8.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="photos/edit/group11.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="photos/edit/group2.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
+    </div>
+    
+    <div class="w3-third">
+      <img src="photos/edit/group3.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="photos/edit/group5.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+      <img src="photos/edit/img1.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    </div>
+    
+  
+  </div>
+    
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      
+    </div>
+  </div>
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center  w3-blue w3-greyscale w3-xlarge">
+<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Find Us</h1>
+  <a href="https://www.facebook.com/iithracing/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+   <a href="https://plus.google.com/117262405380658676077" target="_blank"><i class="fa fa-google w3-hover-opacity"></i></a>
+   <a href="https://www.youtube.com/channel/UCWKZm9_iErSXgVYuIn_Ujqg" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity"></i></a>
+  <p>Indian Institute of Technology Hyderabad<br>
+Hyderabad, India.<br> 
+All rights reserved @2017.</p>
+  <p class="w3-medium">Made by <a href="https://www.facebook.com/johnbesra.2" target="_blank">John Besra</a></p>
+</footer>
+
+
+<script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+<script type="text/javascript">var amountScrolled = 400;
+
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
+});</script>
+<script>
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.back-to-top').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+</script>
+
+<!-- Add Google Maps -->
+<script type="text/javascript">
+  // Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+<script>
+
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+<script>
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.scrolling').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+</script>
+</body>
+</html>
