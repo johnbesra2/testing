@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<title>About Us - IITH Racing</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" href="logo.png" type="image/png" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://johnorgs.github.io/hotel-travel-food-portfolio/pace-theme-minimal.css">
+  <script src="https://johnorgs.github.io/hotel-travel-food-portfolio/pace.js"></script>
+ <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<style>
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Yanone Kaffeesatz', sans-serif;}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("photos/img/kkk.jpg");
+    min-height: 90%;
+}
+
+ a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 99999;
+  right: 20px;
+  bottom: 20px;
+  background: black url("cd-top-arrow.svg") no-repeat center 50%;
+  opacity: 1;
+
+
+}
+a.back-to-top:hover
+{
+
+  opacity:1;
+}
+   /* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,1); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,255,255,1); 
+
+}
+
+.timeline1 {
+    box-sizing: border-box;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline1 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline1::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+}
+
+/* Container around content */
+.container1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left1 {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right1 {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right1::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right1::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content1 {
+  color: black;
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline1::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container1 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container1::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left1::after, .right1::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right1 {
+    left: 0%;
+  }
+}
+@-webkit-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+ .scroll-btn {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.scroll-btn > * {
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #7f8c8d;
+  color: #ffffff;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+  color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 35px;
+  margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 2.5s linear infinite;
+  -moz-animation: ani-mouse 2.5s linear infinite;
+  animation: ani-mouse 2.5s linear infinite;
+</style>
+<body id="home">
+<a href="#home" class="back-to-top">Back to Top</a>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off " id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button scrolling" style="margin-left: 60px;">&nbsp;IITH RACING</a>
+    <div style="">
+    <a href="contact.html" class="w3-bar-item w3-button w3-right">CONTACT</a>
+    <a href="fff2.html" class="w3-bar-item w3-button w3-right">TEAM</a>
+    <a href="atv.html" class="w3-bar-item w3-button w3-right">ATV</a>
+    
+    <a href="#timeline" class="w3-bar-item w3-button w3-right scrolling w3-hide-small">TIMELINE</a>
+    <a href="#about" class="w3-bar-item w3-button w3-right scrolling w3-hide-small">ABOUT</a>
+    </div>
+    
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container " id="home">
+  
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:60px">WELCOME <span style="font-size: 15px">to</span><br>IITH RACING</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:30px"><b>WELCOME  <span style="font-size: 15px">to</span><br>IITH RACING</b></span>
+    <br><br>
+    <br>
+      <span class="scroll-btn">
+  <a href="#about" class="scrolling">
+    <span class="mouse">
+      <span>
+      </span>
+    </span>
+  </a>
+  
+
+</span>
+    <p><!--<a href="#about" class="w3-button w3-xxlarge w3-black scrolling">CLICK</a>--></p>
+  </div>
+</header>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red  w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About IITH Racing</h1>
+    
+    <h4 class="w3-center"><b><q>The only thing that drives our car, is our Passion.</q></b></h4>
+    
+    
+    <div class="w3-row">
+      <div class="w3-col w3-center">
+      <br>
+        <p>IITH Racing is a team of Engineering students from IIT Hyderabad who shares a passion for Automobiles and work into designing, building and testing an All-Terrain Car. Making ATV better and team stronger every year. This team was founded in year 2013 and since then, we have been participating in BAJA SAE India and competing against teams from all over India.</p>
+      </div>
+      <div class="w3-col" style="padding: 10px;">
+      <br>
+      <iframe src="photo.html" height="500px" width="100%" style="border: none;"></iframe>
+        <!--<img src="file:///C:/Users/J/Desktop/BAJA%20SAE/photos/edit/img31.jpg" style="width: 100%;height: 50%;">-->
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-blue  w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About BAJA SAE</h1>
+    
+    
+    
+    
+    <div class="w3-row">
+      <div class="w3-half w3-center">
+      <br>
+        <p>BAJA SAE India is a student competition that involves designing, Engineering , Planing, Manufacturing and racing ALL-TERAIN Vehicles. The competition Goal include safety, good engineering practice, engineering design, and education of participating students. Each teams goal is to design and build aprototype of a rugged single seat, off-road recreational four wheel vehicle. It should be able to negotiate in all types of weather without any damage.</p>
+      </div>
+      <div class="w3-half w3-center" style="padding: 10px;">
+      <br>
+      <img src="a1.png" style="width:100%;height: 100%">
+        <!--<img src="file:///C:/Users/J/Desktop/BAJA%20SAE/photos/edit/img31.jpg" style="width: 100%;height: 50%;">-->
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<div class="w3-container w3-red " id="timeline" >
+<br><br><br>
+<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Timeline SAE IITH</h1>
+  <div class="timeline1">
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>SAE 2015</h2>
+      <p>IITH ATV SAE 2015 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 102 inches, and overall height of 72 inches. Having Dry Weight of 230 kg.</p>
+      <img src="photos/edit/img3.jpg" style="width: 100%">
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>SAE 2016</h2>
+      <p>IITH ATV SAE 2016 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 96 inches, and overall height of 72 inches. Having Dry Weight of 270 kg.</p>
+      <img src="photos/edit/img2.jpg" style="width: 100%;">
+    </div>
+  </div>
+  <div class="container1 left1">
+    <div class="content1">
+      <h2>SAE 2017</h2>
+      <p>IITH ATV SAE 2017 is a vehicle equipted with Biggs and Stratton Engine (10 bhp) with overall length of 102 inches, and overall height of 27 inches. Having Dry Weight of 220 kg.</p>
+      <img src="photos/edit/img1.jpg" style="width: 100%;">
+    </div>
+  </div>
+  <div class="container1 right1">
+    <div class="content1">
+      <h2>SAE 2018</h2>
+      <p>COMING SOON.</p>
+    </div>
+  </div>
+
+</div>
+<br><br><br>
+</div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-red  " style="max-width:1600px;" id="gallery">
+<!--<br><br>
+  <h1 class="w3-center w3-jumbo" style="margin-bottom:64px;">Gallery</h1>-->
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-third">
+      <img src="photos/edit/img1.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="photos/edit/img3.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+      <img src="photos/edit/group1.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+   </div>
+    
+   <div class="w3-third">
+      <img src="photos/edit/group8.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="photos/edit/group11.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="photos/edit/group2.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
+    </div>
+    
+    <div class="w3-third">
+      <img src="photos/edit/group3.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="photos/edit/group5.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+      <img src="photos/edit/img1.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    </div>
+    
+  
+  </div>
+    
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      
+    </div>
+  </div>
+
+
+<div class="w3-container w3-padding-64 w3-red  w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact Us</h1>
+    <p>Find us at IIT Hyderabad or call us at 096401-57759</p>
+    
+    <p class="w3-xxlarge">Ask for queries or just send us a message:</p>
+    <form action="" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<div  class="map1" style="z-index: -999;height:90vh;right: 0px;">
+  
+    <div  id="map" style="width:100%;height: 100%;">
+  </div>
+</div>
+
+
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(17.5947,78.1231);
+  var mapCanvas = document.getElementById("map");
+  var myCenter2 = new google.maps.LatLng(17.5947,78.1231);
+  var mapOptions = {center: myCenter2, zoom: 14};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+
+  marker.setMap(map);
+
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmFzckzIN34dKug9ssaxsL6c3zlyBZUKg&callback=myMap"></script>
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center  w3-blue  w3-xlarge">
+<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Find Us</h1>
+  <a href="https://www.facebook.com/iithracing/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+   <a href="https://plus.google.com/117262405380658676077" target="_blank"><i class="fa fa-google w3-hover-opacity"></i></a>
+   <a href="https://www.youtube.com/channel/UCWKZm9_iErSXgVYuIn_Ujqg" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity"></i></a>
+  <p>Indian Institute of Technology Hyderabad<br>
+Hyderabad, India.<br> 
+All rights reserved @2017.</p>
+  <p class="w3-medium">Made by <a href="https://www.facebook.com/johnbesra.2" target="_blank">John Besra</a></p>
+</footer>
+
+
+<script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+<script type="text/javascript">var amountScrolled = 400;
+
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
+});</script>
+<script>
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.back-to-top').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+</script>
+
+
+<script type="text/javascript">
+  // Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+<script>
+
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+<script>
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.scrolling').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+</script>
+</body>
+</html>
